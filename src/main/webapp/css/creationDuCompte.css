@@ -1,0 +1,188 @@
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    :root{
+        --backGround:#F4E8E8;
+        --mainColor:#192386;
+    }
+    html{
+    font-size:  62.5%;
+    }
+    body{
+        font-size:  20px;
+    }
+    header{
+        position: fixed;
+        background-color:var(--backGround); 
+        border-radius: 20px;
+        height: 42px;
+        width: 100%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        color: var(--mainColor);
+        padding-bottom: 60px;
+        
+    }
+
+    header h5,header img{
+    padding-left:10px;
+    }
+    section{
+    padding-top:10px;
+    }
+    h1 {
+        font-size: 30px;
+        background-color: var(--backGround);
+        color: var(--mainColor);
+        padding: 20px 10px 20px 10px;
+        width: 80%;
+        justify-self: center;
+        border-radius: 50px 0px;
+        
+    }
+    fieldset{
+    font-size: 24px;
+    padding: 20px;
+    margin-bottom: 40px;
+    color: var(--mainColor);
+    border-color: var(--mainColor);
+    }
+    form label{
+        font-size:  20px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+
+    legend{
+        font-size:  24px;
+        padding: 20px;
+    }
+
+    form  {
+        align-items: center;
+        padding-bottom: 30px;
+    
+    }
+    input{
+        background-color: var(--backGround);
+        border:solid 2px var(--mainColor);
+        height: 40px;
+    margin-top:10px;
+    }
+    button{
+    
+            border: none;
+            background-color: white;
+            width: 43px; 
+            height: 43px;
+        
+        }
+        
+    button img {
+    width: 100%;
+    height: 100%;
+
+    }
+        
+    header button{
+        background-color: var(--backGround);
+    }
+    section img{
+        width: 80%;
+    }
+    footer{
+        background-color: var(--backGround);
+        margin:20px auto;
+        width: 100%;
+        border-radius: 20px;
+        color:var(--mainColor);
+        justify-content: space-between;
+    
+    }
+    footer > div{
+        margin: auto 100px;
+      
+    }
+    footer :first-child  p{
+        padding: 40px;
+       align-self: flex-end;
+    }
+
+   
+    /********************Class*******************************/
+    .containerRow{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .containerColunm {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .bar {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .alignement{
+        margin: 10px;
+        padding-bottom: 40px;
+    }
+    .titre{
+        margin: 80px auto;
+        text-align: center;
+        border-radius: 50px 0px;
+        width: 60%;
+        justify-content: space-between;
+        
+    }
+    .submit{
+    
+        margin-top: 20px;
+        border-radius: 15%;
+        color: var(--mainColor);
+        padding: 0 5px 5px 5px;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px var(--mainColor)
+        
+
+    }
+
+    .submit input{
+    border:none;
+    }
+    .submit img{
+        width: 20%;;
+        margin-top:15px;
+    }
+    .formulaire{
+        background-color: var(--backGround);
+        color: var(--mainColor);
+        width: 70%;
+        margin: 0 auto;
+        padding: 40px;
+        border-radius: 5%;
+
+    }
+
+    .item{
+        flex:1
+    }
+    
+    footer img{
+        background-color: var(--backGround);
+        padding-left: 10px;
+      
+    }
+/********************************************************************************/
+
+#alignementBas{
+    justify-content: space-between;
+    align-items:flex-end;
+}
